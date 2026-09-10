@@ -11,13 +11,11 @@ playwright-report/
 blob-report/
 playwright/.cache/
 
-# Generated assets.
-# `npm run assets:fetch` and the two logo scripts rebuild these from their
-# sources; see the README for provenance. Ignored so the repository does not
-# carry a few MB of binaries, and so a stale image can never drift from the
-# manifest that describes it.
-public/assets/products/
-public/assets/brands/
+# Generated assets under public/assets are committed, not ignored. `npm run assets`
+# rebuilds them from Wikimedia Commons (see the README for provenance), but the
+# deployed site serves them at runtime and src/data/products.ts imports
+# products/credits.json at compile time — so a checkout without them cannot build.
+# Re-run the scripts and commit the result when the catalogue changes.
 
 # Editor / OS
 .vscode/
@@ -29,3 +27,6 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+
+# Kept on this machine but deliberately not published to the repo.
+CLAUDE.md

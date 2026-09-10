@@ -1,0 +1,119 @@
+[
+  {
+    "id": "apple",
+    "title": "Apple",
+    "hex": "#000000",
+    "vendorHex": "#000000",
+    "source": "https://www.apple.com",
+    "origin": "simple-icons",
+    "aspectRatio": 0.817
+  },
+  {
+    "id": "samsung",
+    "title": "Samsung",
+    "hex": "#1428A0",
+    "vendorHex": "#1428A0",
+    "source": "https://www.samsung.com/us/about-us/brand-identity/logo/",
+    "origin": "simple-icons",
+    "aspectRatio": 6.522
+  },
+  {
+    "id": "sony",
+    "title": "Sony",
+    "hex": "#000000",
+    "vendorHex": "#FFFFFF",
+    "source": "https://www.sony.com",
+    "origin": "simple-icons",
+    "aspectRatio": 5.66
+  },
+  {
+    "id": "asus",
+    "title": "ASUS",
+    "hex": "#000000",
+    "vendorHex": "#000000",
+    "source": "https://www.asus.com",
+    "origin": "simple-icons",
+    "aspectRatio": 4.839
+  },
+  {
+    "id": "lenovo",
+    "title": "Lenovo",
+    "hex": "#E2231A",
+    "vendorHex": "#E2231A",
+    "source": "https://news.lenovo.com/press-kits/",
+    "origin": "simple-icons",
+    "aspectRatio": 2.97
+  },
+  {
+    "id": "dell",
+    "title": "Dell",
+    "hex": "#007DB8",
+    "vendorHex": "#007DB8",
+    "source": "https://www.dell.com",
+    "origin": "simple-icons",
+    "aspectRatio": 1
+  },
+  {
+    "id": "hp",
+    "title": "HP",
+    "hex": "#0096D6",
+    "vendorHex": "#0096D6",
+    "source": "https://brandcentral.hp.com/us/en/elements/hp-logo.html",
+    "origin": "simple-icons",
+    "aspectRatio": 1
+  },
+  {
+    "id": "logitech",
+    "title": "Logitech",
+    "hex": "#00B8FC",
+    "vendorHex": "#00B8FC",
+    "source": "https://www.logitech.com/en-us/pr/library",
+    "origin": "simple-icons",
+    "aspectRatio": 1.449
+  },
+  {
+    "id": "jbl",
+    "title": "JBL",
+    "hex": "#FF3300",
+    "vendorHex": "#FF3300",
+    "source": "https://www.jbl.com",
+    "origin": "simple-icons",
+    "aspectRatio": 1.775
+  },
+  {
+    "id": "bose",
+    "title": "Bose",
+    "hex": "#000000",
+    "vendorHex": "#000000",
+    "source": "https://www.bose.com",
+    "origin": "simple-icons",
+    "aspectRatio": 8.333
+  },
+  {
+    "id": "nikon",
+    "title": "Nikon",
+    "hex": "#1A1A1A",
+    "vendorHex": "#FFE100",
+    "source": "https://www.nikon.com",
+    "origin": "simple-icons",
+    "aspectRatio": 3.614
+  },
+  {
+    "id": "nintendo",
+    "title": "Nintendo",
+    "hex": "#E60012",
+    "vendorHex": "#E60012",
+    "source": "https://www.nintendo.com",
+    "origin": "simple-icons",
+    "aspectRatio": 4
+  },
+  {
+    "id": "playstation",
+    "title": "PlayStation",
+    "hex": "#0070D1",
+    "vendorHex": "#0070D1",
+    "source": "https://www.playstation.com/en-us/",
+    "origin": "simple-icons",
+    "aspectRatio": 1.277
+  }
+]
