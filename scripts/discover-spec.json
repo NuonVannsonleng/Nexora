@@ -1,0 +1,42 @@
+{
+  "iphone-15-pro":        { "tokens": ["iphone", "15[ _]*pro"],        "searches": ["iPhone 15 Pro"],            "categories": ["Category:IPhone 15 Pro"] },
+  "macbook-air-m2":       { "tokens": ["macbook[ _]*air"],             "searches": ["MacBook Air M2"],           "categories": ["Category:MacBook Air"] },
+  "macbook-pro-14":       { "tokens": ["macbook[ _]*pro"],             "searches": ["MacBook Pro 14 inch 2021"], "categories": ["Category:MacBook Pro"] },
+  "ipad-pro-m4":          { "tokens": ["ipad[ _]*pro"],                "searches": ["iPad Pro"],                 "categories": ["Category:IPad Pro"] },
+  "apple-watch-s9":       { "tokens": ["apple[ _]*watch", "series"],   "searches": ["Apple Watch Series 9"],     "categories": ["Category:Apple Watch Series 9", "Category:Apple Watch"] },
+  "airpods-pro-2":        { "tokens": ["airpods[ _]*pro"],             "searches": ["AirPods Pro"],              "categories": ["Category:AirPods Pro"] },
+
+  "galaxy-s24-ultra":     { "tokens": ["s24[ _]*ultra"],               "searches": ["Samsung Galaxy S24 Ultra"], "categories": ["Category:Samsung Galaxy S24 Ultra"] },
+  "galaxy-z-fold5":       { "tokens": ["fold[ _]*5"],                  "searches": ["Samsung Galaxy Z Fold5"],   "categories": ["Category:Samsung Galaxy Z Fold 5"] },
+  "galaxy-tab-s9":        { "tokens": ["tab[ _]*s9"],                  "searches": ["Samsung Galaxy Tab S9"],    "categories": ["Category:Samsung Galaxy Tab S9"] },
+  "galaxy-watch6":        { "tokens": ["watch[ _]*6"],                 "searches": ["Samsung Galaxy Watch6"],    "categories": ["Category:Samsung Galaxy Watch 6"] },
+  "galaxy-buds2-pro":     { "tokens": ["buds[ _]*2[ _]*pro"],          "searches": ["Samsung Galaxy Buds2 Pro"], "categories": ["Category:Samsung Galaxy Buds"] },
+
+  "sony-wh1000xm5":       { "tokens": ["1000xm5"],                     "searches": ["Sony WH-1000XM5"],          "categories": [] },
+  "sony-wh1000xm4":       { "tokens": ["1000xm4"],                     "searches": ["Sony WH-1000XM4"],          "categories": [] },
+  "playstation-5":        { "tokens": ["playstation[ _]*5"],           "searches": ["PlayStation 5 console"],    "categories": ["Category:PlayStation 5", "Category:PlayStation 5 consoles"] },
+  "sony-a7-iv":           { "tokens": ["7[ _]*iv|a7[ _]*iv|7m4"],      "searches": ["Sony Alpha 7 IV"],          "categories": ["Category:Sony Alpha 7 IV"] },
+  "sony-bravia":          { "tokens": ["bravia"],                      "searches": ["Sony Bravia OLED television"], "categories": ["Category:Sony Bravia"] },
+
+  "surface-laptop-studio":{ "tokens": ["surface[ _]*laptop[ _]*studio"], "searches": ["Surface Laptop Studio"],  "categories": ["Category:Microsoft Surface Laptop Studio"] },
+  "xbox-series-x":        { "tokens": ["series[ _]*x"],                "searches": ["Xbox Series X"],            "categories": ["Category:Xbox Series X"] },
+
+  "pixel-8-pro":          { "tokens": ["pixel[ _]*8[ _]*pro"],         "searches": ["Google Pixel 8 Pro"],       "categories": ["Category:Google Pixel 8 Pro"] },
+  "pixel-buds-pro":       { "tokens": ["pixel[ _]*buds[ _]*pro"],      "searches": ["Google Pixel Buds Pro"],    "categories": ["Category:Google Pixel Buds"] },
+  "pixel-watch-2":        { "tokens": ["pixel[ _]*watch"],             "searches": ["Google Pixel Watch 2"],     "categories": ["Category:Google Pixel Watch"] },
+
+  "asus-rog-zephyrus":    { "tokens": ["zephyrus"],                    "searches": ["Asus ROG Zephyrus"],        "categories": ["Category:Asus ROG"] },
+  "asus-zenbook":         { "tokens": ["zenbook"],                     "searches": ["Asus Zenbook"],             "categories": ["Category:Asus Zenbook"] },
+  "thinkpad-x1-carbon":   { "tokens": ["x1[ _]*carbon"],               "searches": ["ThinkPad X1 Carbon"],       "categories": ["Category:Lenovo ThinkPad X1 Carbon"] },
+  "lenovo-legion":        { "tokens": ["legion"],                      "searches": ["Lenovo Legion laptop"],     "categories": ["Category:Lenovo Legion"] },
+  "dell-xps-15":          { "tokens": ["xps[ _]*15"],                  "searches": ["Dell XPS 15"],              "categories": ["Category:Dell XPS"] },
+  "dell-xps-13":          { "tokens": ["xps[ _]*13"],                  "searches": ["Dell XPS 13"],              "categories": ["Category:Dell XPS"] },
+  "hp-spectre-x360":      { "tokens": ["spectre"],                     "searches": ["HP Spectre x360"],          "categories": ["Category:HP Spectre"] },
+
+  "logitech-mx-master-3": { "tokens": ["mx[ _]*master"],               "searches": ["Logitech MX Master 3"],     "categories": ["Category:Logitech MX Master"] },
+  "jbl-flip":             { "tokens": ["flip"],                        "searches": ["JBL Flip speaker"],         "categories": ["Category:JBL"] },
+  "bose-qc":              { "tokens": ["quietcomfort"],                "searches": ["Bose QuietComfort"],        "categories": ["Category:Bose headphones", "Category:Bose"] },
+  "canon-eos-r6":         { "tokens": ["eos[ _]*r6"],                  "searches": ["Canon EOS R6"],             "categories": ["Category:Canon EOS R6"] },
+  "nikon-z6":             { "tokens": ["nikon[ _]*z[ _]*6"],           "searches": ["Nikon Z6"],                 "categories": ["Category:Nikon Z 6"] },
+  "nintendo-switch-oled": { "tokens": ["oled"],                        "searches": ["Nintendo Switch OLED"],     "categories": ["Category:Nintendo Switch OLED Model"] }
+}

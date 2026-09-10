@@ -1,0 +1,51 @@
+{
+  "_comment": [
+    "Curated map of catalogue product id -> the exact Wikimedia Commons file holding a",
+    "real photograph of THAT product. Every entry was checked so the photo depicts the",
+    "model the catalogue names -- where Commons had no photo of a newer variant, the",
+    "catalogue names the variant that is actually pictured rather than mislabelling it.",
+    "fetch-assets.mjs resolves each title to a CDN thumbnail and records attribution."
+  ],
+  "iphone-15-pro": "File:Apple iPhone 15 Pro.jpg",
+  "macbook-air-m2": "File:M2 Macbook Air Starlight model.jpg",
+  "macbook-pro-16": "File:MacBook Pro 16 (M1 Pro, 2021) - Wikipedia.jpg",
+  "ipad-pro-11": "File:11-inch iPad Pro M5 with Apple Pencil Pro.jpg",
+  "apple-watch-s9": "File:Apple Watch Series 9 (cropped).jpg",
+  "airpods-pro-2": "File:AirPods Pro (2nd generation).jpg",
+
+  "galaxy-s24-ultra": "File:Samsung Galaxy S24 Ultra (1).jpg",
+  "galaxy-z-fold5": "File:Samsung Galaxy Z Fold 5 in Chongqing 20240220-124537.jpg",
+  "galaxy-tab-s9": "File:Samsung Galaxy Tab S9.png",
+  "galaxy-watch6": "File:Samsung Galaxy Watch 6.jpg",
+  "galaxy-buds2-pro": "File:Samsung Galaxy Buds2 Pro (Graphite).jpg",
+
+  "playstation-5": "File:PlayStation 5 and DualSense with transparent background.png",
+  "sony-a7-iv": "File:Sony a7 IV 33MP Mirrorless Digital Camera.jpg",
+  "sony-wh-ch510": "File:Sony WH-CH510 Bluetooth Over-Ear Headphone.jpg",
+  "sony-bravia-w60": "File:Sony Bravia 24 Inch LED TV Model W60.jpg",
+
+  "surface-laptop-studio": "File:Surface Laptop Studio - 1.jpg",
+  "xbox-series-x": "File:Xbox Series X 2 (transparent background).png",
+
+  "pixel-8-pro": "File:Google Pixel 8 Pro.jpg",
+  "pixel-buds-pro": "File:Pixel Buds Pro, orange.jpg",
+  "pixel-watch": "File:Google Pixel Watch - 1.jpg",
+
+  "asus-rog-zephyrus-g14": "File:ASUS ROG Zephyrus 2026-08-15 G14.jpg",
+  "asus-zenbook-duo": "File:ASUS ZenBook Duo UX481FL.jpg",
+
+  "thinkpad-x1-carbon": "File:ThinkPad X1 Carbon gen7 (0).jpg",
+  "lenovo-legion-y520": "File:Lenovo Legion Y520 (1).jpg",
+
+  "dell-xps-13": "File:Dell XPS 13 9350.jpg",
+  "hp-spectre-x360": "File:Hp Spectre x360 13t.jpg",
+
+  "logitech-mx-master": "File:Logitech MX Master (20242297670).jpg",
+  "jbl-flip-4": "File:JBL Flip 4.jpg",
+  "bose-qc-ultra-earbuds": "File:Bose QuietComfort Ultra Earbuds - 1.jpg",
+  "bose-qc35-ii": "File:Bose QuietComfort 35 II Wireless Headphones.jpg",
+
+  "canon-eos-r6-ii": "File:Canon EOS R6 Mark II 9 jan 2023c.jpg",
+  "nikon-z6": "File:Nikon Z 6 with Nikkor Z 24-70 4S front left.jpg",
+  "nintendo-switch-oled": "File:Nintendo Switch OLED.jpg"
+}

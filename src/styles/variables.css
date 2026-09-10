@@ -1,0 +1,84 @@
+/* Design tokens. Everything visual in the app resolves back to a value here. */
+
+:root {
+  /* ---- Neutral palette -------------------------------------------------- */
+  --c-white: #ffffff;
+  --c-black: #000000;
+  --c-ink: #1d1d1f;      /* primary text */
+  --c-slate: #636369;    /* secondary text, metadata (AA on white and on --c-haze) */
+  --c-haze: #f5f5f7;     /* alternating section background */
+  --c-hairline: #d2d2d7; /* borders and dividers */
+
+  /* ---- Accents ---------------------------------------------------------- */
+  /* Used sparingly: links, focus, the buy CTA.
+     Chosen to clear AA at small sizes both as link text on --c-haze and as a
+     button fill under white text — a lighter blue fails one or the other. */
+  --c-accent: #0068d1;
+  --c-accent-hover: #0071e3;
+  --c-accent-press: #005ec0;
+  --c-deal: #bf4800;   /* savings / price-drop text, passes AA on white */
+  --c-instock: #037c4b;
+
+  /* ---- Type scale ------------------------------------------------------- */
+  --t-display: clamp(2.5rem, 6vw, 4.5rem);
+  --t-h1: clamp(2rem, 4.5vw, 3rem);
+  --t-h2: clamp(1.625rem, 3vw, 2.25rem);
+  --t-h3: clamp(1.25rem, 2vw, 1.5rem);
+  --t-body: 1.0625rem;
+  --t-small: 0.875rem;
+  --t-micro: 0.75rem;
+
+  --lh-tight: 1.07;
+  --lh-snug: 1.25;
+  --lh-body: 1.5;
+
+  /* ---- Spacing rhythm --------------------------------------------------- */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-6: 1.5rem;
+  --s-8: 2rem;
+  --s-12: 3rem;
+  --s-16: 4rem;
+  --s-24: 6rem;
+
+  /* Vertical padding for a full-width section, fluid between mobile/desktop. */
+  --section-y: clamp(3.5rem, 7vw, 6.5rem);
+
+  /* ---- Layout ----------------------------------------------------------- */
+  --container-max: 1240px;
+  --container-pad: clamp(1.25rem, 4vw, 2.5rem);
+  --header-h: 48px;
+
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 18px;
+  --r-pill: 980px; /* Apple's pill-button radius */
+
+  /* ---- Motion ----------------------------------------------------------- */
+  --e-premium: cubic-bezier(0.32, 0.72, 0, 1);
+  --d-fast: 180ms;
+  --d-base: 320ms;
+  --d-slow: 640ms;
+
+  /* ---- Elevation -------------------------------------------------------- */
+  /* Deliberately restrained — depth comes from spacing, not heavy shadow. */
+  --sh-card: 0 2px 12px rgb(0 0 0 / 6%);
+  --sh-card-hover: 0 8px 28px rgb(0 0 0 / 10%);
+  --sh-drawer: 0 12px 48px rgb(0 0 0 / 18%);
+
+  --z-header: 100;
+  --z-drawer: 200;
+  --z-modal: 300;
+}
+
+/* Motion tokens collapse to zero so every transition that uses them stops,
+   without each component needing its own reduced-motion branch. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --d-fast: 0ms;
+    --d-base: 0ms;
+    --d-slow: 0ms;
+  }
+}

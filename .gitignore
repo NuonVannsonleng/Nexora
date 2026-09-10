@@ -1,0 +1,31 @@
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Test and coverage output
+coverage/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Generated assets.
+# `npm run assets:fetch` and the two logo scripts rebuild these from their
+# sources; see the README for provenance. Ignored so the repository does not
+# carry a few MB of binaries, and so a stale image can never drift from the
+# manifest that describes it.
+public/assets/products/
+public/assets/brands/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+.env.local
+.env.*.local
